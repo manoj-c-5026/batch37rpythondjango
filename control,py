@@ -1,0 +1,59 @@
+AGE=int(input("enter your age :"))
+
+if AGE>=18 and AGE<=25:
+    print("your are eligeble for vote")
+    print("congrats this is your first vote")
+
+elif AGE>25 and AGE<35:
+    print("bravo..cast your second vote ")
+
+
+elif AGE<18:
+     print("you are not eligeble for vote")
+
+else:
+    print("thank you jai hind")        
+
+
+
+
+studentmarks=int(input("enter your marks:"))
+if studentmarks>40:
+    print("pass")
+else:
+    print("fail")   
+ 
+voterage=int(input("enter your age:"))
+if voterage>18:
+    print("you are eligble to vote")
+else:
+    print("you are not eligible to vote")
+
+number=int(input("enter your number:"))
+if number % 2==0:
+    print("its even number")
+else:
+    print("its odd number")  
+
+
+number1=int(input("enter 1st number:"))
+number2=int(input("enter 2nd number2:"))
+if number1>number2:
+    print("nmber 1 larger than number 2")
+elif number2>number1:
+    print("number 2 >number 1")
+else:
+    print("both are equal numbers")    
+
+number=float(input("enter ur number:"))
+if number>0:
+    print("its positive number")
+else:
+    print("its negitive number")
+
+num=int(input("enter an integer:"))
+if num%2==0:
+    print("num is even:",num )
+else:
+    print("number is odd:",num)    
+    
